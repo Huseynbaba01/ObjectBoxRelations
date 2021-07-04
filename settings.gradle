@@ -1,0 +1,2 @@
+rootProject.name = "ObjectBox Relations"
+include ':app'
