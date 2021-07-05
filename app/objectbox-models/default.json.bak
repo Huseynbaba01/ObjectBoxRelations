@@ -19,7 +19,7 @@
     },
     {
       "id": "2:6414663475453259537",
-      "lastPropertyId": "3:1177335657555008764",
+      "lastPropertyId": "2:1503422813395456619",
       "name": "Order",
       "properties": [
         {
@@ -35,11 +35,6 @@
           "type": 11,
           "flags": 1548,
           "relationTarget": "Customer"
-        },
-        {
-          "id": "3:1177335657555008764",
-          "name": "name",
-          "type": 9
         }
       ],
       "relations": []
