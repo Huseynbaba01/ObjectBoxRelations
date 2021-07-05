@@ -4,12 +4,20 @@ import android.content.Context
 import io.objectbox.BoxStore
 
 object ObjectBox {
-	var boxStore: BoxStore? = null
+//	var boxStoreForOrder: BoxStore? = null
+	var boxStoreForCustomer: BoxStore? = null
 		private set
 
 	fun init(context: Context) {
-			boxStore = MyObjectBox.builder()
+		/*if(boxStoreForOrder == null) {
+			boxStoreForOrder = MyObjectBox.builder()
 				.androidContext(context.applicationContext)
 				.build()
+		}*/
+		if(boxStoreForCustomer == null){
+			boxStoreForCustomer = MyObjectBox.builder()
+				.androidContext(context.applicationContext)
+				.build()
+		}
 	}
 }

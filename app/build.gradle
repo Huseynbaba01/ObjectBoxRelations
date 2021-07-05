@@ -20,8 +20,10 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled /*true*/ false
+//            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
         }
     }
     compileOptions {
@@ -30,9 +32,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-    buildFeatures{
-        mminifyEnabled true
     }
 }
 

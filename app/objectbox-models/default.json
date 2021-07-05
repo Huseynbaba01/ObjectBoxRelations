@@ -5,7 +5,7 @@
   "entities": [
     {
       "id": "1:9019361783558923578",
-      "lastPropertyId": "1:294918675942697963",
+      "lastPropertyId": "2:5262207272165243400",
       "name": "Customer",
       "properties": [
         {
@@ -13,6 +13,11 @@
           "name": "id",
           "type": 6,
           "flags": 1
+        },
+        {
+          "id": "2:5262207272165243400",
+          "name": "name",
+          "type": 9
         }
       ],
       "relations": []
